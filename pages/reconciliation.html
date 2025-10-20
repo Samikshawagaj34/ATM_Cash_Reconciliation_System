@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reconciliation</title>
+    <link rel="stylesheet" href="./../css/reconciliation.css">
+</head>
+<body>
+    <img src="./../images/reconciliation-banner.jpg" height="500px" width="1510px" alt="Reconciliation Banner" class="banner-img">
+    
+   <div class="page-heading">
+    <h1> ATM Cash Reconciliation System</h1>
+    <p> Use this tool to check your ATM Cash reconciliation and detect any discrepancies in cash counting</p>
+   </div>
+
+   <div class="reconciliation-container">
+    <div class="image-container">
+        <img src="./../images/Reconciliation-process.jpg" alt="atm">
+</div>
+
+    <div class="reconciliation-from">
+        <h2>Reconciliation Process</h2>
+
+         <label for="old-balance">1. Old Balance (₹)</label>
+      <input type="number" id="old-balance" placeholder="Enter old balance" />
+
+      <label for="loaded-cash">2. Loaded Cash (₹)</label>
+      <input type="number" id="loaded-cash" placeholder="Enter loaded cash" />
+
+      <label for="total-withdrawn">3. Total Withdrawn (₹)</label>
+      <input type="number" id="total-withdrawn" placeholder="Enter total withdrawn" />
+
+      <label for="actual-cash-counted">4. Actual Cash Counted (₹)</label>
+      <input type="number" id="actual-cash-counted" placeholder="Enter actual cash counted" />
+
+      <button class="check-btn" >Check Reconciliation</button>
+
+
+
+    </div>
+   </div>
+</body>
+</html>
