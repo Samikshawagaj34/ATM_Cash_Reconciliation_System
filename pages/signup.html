@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up | FinTrack ATM</title>
+  <link rel="stylesheet" type="text/css" href="css\index.css">
+  <link rel="stylesheet" href="../css/signup.css">
+</head>
+<body>
+  <div class="signup-container">
+    <h2>Create Your Account</h2>
+
+    <form>
+      <div class="form-left">
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" placeholder="Enter your full name" required>
+
+        <label for="empid">Employee ID</label>
+        <input type="text" id="empid" placeholder="Enter employee ID" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" placeholder="Enter your phone number" required>
+
+        <label for="role">Role / User Type</label>
+        <select id="role" required>
+          <option value="">-- Select Role --</option>
+          <option>Admin</option>
+          <option>Reconciliation Officer</option>
+          <option>ATM Operator</option>
+        </select>
+      </div>
+
+      <div class="form-right">
+        <label for="branch">Branch / Location</label>
+        <input type="text" id="branch" placeholder="Enter branch or location" required>
+
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Choose a username" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter password" required>
+
+        <label for="confirm_password">Confirm Password</label>
+        <input type="password" id="confirm_password" placeholder="Re-enter password" required>
+      </div>
+
+      <div class="form-bottom">
+        <div class="terms">
+          <input type="checkbox" id="terms" required>
+          <label for="terms">I agree to the Terms & Conditions</label>
+        </div>
+        <button type="submit">Sign Up</button>
+      </div>
+    </form>
+
+    <p>Already have an account? <a href="signin.html">Sign In</a></p>
+  </div>
+</body>
+</html>
