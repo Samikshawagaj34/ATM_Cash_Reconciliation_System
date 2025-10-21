@@ -34,7 +34,7 @@ body {
 .signup-container h2 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   margin-bottom: 30px;
-  color: #000000;
+  color: #839b6f;
   font-size: 28px;
   font-weight: 400;
   font-style: normal;
@@ -58,7 +58,7 @@ form {
 /* Labels & Inputs */
 label {
   font-weight: 600;
-  color: #000;
+  color: #d8d8d8;
   margin-top: 10px;
 }
 
