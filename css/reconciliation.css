@@ -10,17 +10,32 @@ body {
       text-align: center;
       margin-bottom: 30px;
     }
+    .box {
+    background: rgba(255, 255, 255, 0.336); 
+    padding: 20px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(170, 157, 157, 0.39);
+    backdrop-filter: blur(2px); 
+    max-width: 800px;
+    margin-left: 350px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
 
     .page-heading h1 {
       font-size: 36px;
       color: black;
       margin-bottom: 10px;
-      margin-top: 120px;
+      
     }
 
     .page-heading p {
-      font-size: 18px;
-      color:  #ffc107;;
+      
+      color:  #df7926;
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: x-large;
+       margin-top: 5px;
     }
 
    
@@ -55,7 +70,7 @@ body {
       flex: 1;
       max-width: 450px;
       background: #fff;
-      padding: 40px; /* Big padding for attractive height */
+      padding: 40px; 
       border-radius: 12px;
       box-shadow: 0 6px 20px rgba(0,0,0,0.15);
       display: flex;

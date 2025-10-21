@@ -17,17 +17,30 @@ body {
     margin: 40px auto;
     text-align: center;
 }
-
+.box {
+    background: rgba(255, 255, 255, 0.336); 
+    padding: 20px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(170, 157, 157, 0.39);
+    backdrop-filter: blur(2px); 
+    max-width: 800px;
+    margin-left: 100px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
 h1 {
     color: black;
     margin-bottom: 20px;
-    margin-top: 150px;
+    
 }
 
 p {
-    margin-bottom: 30px;
-    font-size: 20px;
-    color: black;
+   text-align: center;
+  color: black;
+  margin-bottom: 30px;
+  font-size: x-large;
+  margin-top: 5px;
+  text-align: justify;
 }
 
 .parent-container {
@@ -57,13 +70,28 @@ p {
 }
 
 .story-h {
-    color: #1f3a93;
+    color:  #df7926;;
     margin-bottom: 10px;
 }
 
+ .box-h {
+    background: rgba(255, 255, 255, 0.336); 
+    padding: 20px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(170, 157, 157, 0.39);
+    backdrop-filter: blur(2px); 
+    height: 100px;
+    margin-left: 350px;
+    margin-bottom: 20px;
+    
+   
+   
+}
+
 .unique-h {
-    color: #1f3a93;
-    margin: 40px 0 20px;
+    color: black;
+   
+    margin-top: 5px;
 }
 
 
@@ -92,8 +120,8 @@ p {
 
 
 .team-h {
-    color: #1f3a93;
-    margin: 40px 0 20px;
+    color:  black;
+    margin-top: 5px;
 }
 
 .team-box {
@@ -125,9 +153,15 @@ p {
 }
 
 .team-h3 {
-    color: #1f3a93;
+    color:  black;
     margin-bottom: 5px;
     font-size: 22px;
+}
+.text-p {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 .team-p {
