@@ -207,7 +207,7 @@ footer {
   margin-top: 20px;
   padding-top: 10px;
   font-size: 14px;
-  color: #aaa;
+  color: #ffffff;
 }
 
 /* Email Link */
@@ -218,6 +218,22 @@ footer {
 .footer-right a:hover {
   text-decoration: underline;
 }
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  
+}
+
+
+
 
 
  
