@@ -85,7 +85,7 @@ nav {
 
 /* --Sign in Box-- */
 .signin-container {
-  margin-top: 120px; /* space below navbar */
+  margin-top: 480px; /* space below navbar */
   background: rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -188,4 +188,89 @@ button:hover {
 
 .signin-container a:hover {
   text-decoration: underline;
+}
+footer {
+  background-color: #000;
+  color: white;
+  width: 100%;
+  padding: 40px 0 40px 0;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 80px;
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.4);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  text-align: left;
+}
+
+/* Column Headings */
+.footer-container h3, 
+.footer-container h4 {
+  color: rgb(243, 219, 5);
+  margin-bottom: 10px;
+}
+
+/* Footer Links */
+.footer-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-container ul li {
+  margin-bottom: 8px;
+}
+
+.footer-container ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-container ul li a:hover {
+  color: rgb(243, 219, 5);
+  text-decoration: underline;
+}
+
+/* Footer Text */
+.footer-right p, .footer-left p {
+  margin-bottom: 8px;
+  color: #ccc;
+}
+
+/* Bottom Bar */
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 20px;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+/* Email Link */
+.footer-right a {
+  color: rgb(243, 219, 5);
+  text-decoration: none;
+}
+.footer-right a:hover {
+  text-decoration: underline;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  
 }
