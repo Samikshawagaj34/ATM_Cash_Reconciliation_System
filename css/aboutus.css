@@ -175,6 +175,11 @@ p {
     font-size: 15px;
     text-align: justify;
 }
+.copyright{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
 
 
 /* Mobile devices */
