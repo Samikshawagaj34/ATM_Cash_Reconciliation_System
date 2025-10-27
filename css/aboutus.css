@@ -181,7 +181,7 @@ p {
 }
 
 
-/* Mobile devices */
+/* Responsive  Mobile devices */
 
 @media screen and (max-width: 600px) {
     .container {
@@ -221,7 +221,7 @@ p {
     }
 }
 
-/* Tablet Devices */
+/* Responsive Tablet Devices */
 
 @media screen and (min-width: 601px) and (max-width: 992px) {
     .container {
