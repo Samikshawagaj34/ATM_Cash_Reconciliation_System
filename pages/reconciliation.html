@@ -1,58 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reconciliation</title>
-    <link rel="stylesheet" href="./../css/reconciliation.css">
-    <link rel="stylesheet" href="./../css/index.css">
-</head>
-<body>
-     <nav>
-        <div class="logo">
-            <img src="./../images\FTA.png" alt="Logo">
-            <span>FinTrack ATM</span>
-        </div>
-        <div class="nav-links">
-            <a href="./../index.html">Home</a> 
-            <a href="./../pages/aboutus.html">About Us</a> 
-            <a href="#" class="active">Reconciliation</a>
-            <a href="./../pages/contactus.html">Contact Us</a>
-            <a href="./../pages/signin.html">Sign In</a>
-        </div>
-        </nav>
-   
-    
-   <div class="page-heading box">
-    <h1> ATM Cash Reconciliation System</h1>
-    <p><marquee> Use this tool to check your ATM Cash reconciliation and detect any discrepancies in cash counting</marquee></p>
-   </div>
 
-   <div class="reconciliation-container">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reconciliation</title>
+  <link rel="stylesheet" href="./../css/reconciliation.css">
+  <link rel="stylesheet" href="./../css/index.css">
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <img src="./../images\FTA.png" alt="Logo">
+      <span>FinTrack ATM</span>
+    </div>
+    <div class="nav-links">
+      <a href="./../index.html">Home</a>
+      <a href="./../pages/aboutus.html">About Us</a>
+      <a href="#" class="active">Reconciliation</a>
+      <a href="./../pages/contactus.html">Contact Us</a>
+      <a href="./../pages/signin.html">Sign In</a>
+    </div>
+  </nav>
+
+
+  <div class="page-heading box">
+    <h1> ATM Cash Reconciliation System</h1>
+    <p>
+      <marquee> Use this tool to check your ATM Cash reconciliation and detect any discrepancies in cash counting
+      </marquee>
+    </p>
+  </div>
+
+  <div class="reconciliation-container">
     <div class="image-container">
-        <img src="./../images/Reconciliation-process.jpg" alt="atm">
-</div>
+      <img src="./../images/Reconciliation-process.jpg" alt="atm">
+    </div>
 
     <div class="reconciliation-from">
-        <h2>Reconciliation Process</h2>
+      <h2>Reconciliation Process</h2>
 
-         <label for="old-balance">1. Old Balance (₹)</label>
+      <label for="old-balance">1. Old Balance</label>
       <input type="number" id="old-balance" placeholder="Enter old balance" />
 
-      <label for="loaded-cash">2. Loaded Cash (₹)</label>
+      <label for="loaded-cash">2. Loaded Cash </label>
       <input type="number" id="loaded-cash" placeholder="Enter loaded cash" />
 
-      <label for="total-withdrawn">3. Total Withdrawn (₹)</label>
+      <label for="total-withdrawn">3. Total Withdrawn </label>
       <input type="number" id="total-withdrawn" placeholder="Enter total withdrawn" />
 
-      <label for="actual-cash-counted">4. Actual Cash Counted (₹)</label>
+      <label for="actual-cash-counted">4. Actual Cash Counted </label>
       <input type="number" id="actual-cash-counted" placeholder="Enter actual cash counted" />
 
-      <button class="check-btn" >Check Reconciliation</button>
+      <button class="check-btn" onclick="reconciliation()">Check Reconciliation</button>
+
+
 
 
 
     </div>
-   </div>
+  </div>
+
+
+<script src="./../js/reconciliation.js"></script>
+    
+  
 </body>
+
 </html>
