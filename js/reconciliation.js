@@ -11,7 +11,7 @@ function reconciliation() {
       if (discrepancy === 0) {
         alert(" ✅Reconciliation successful!");
       } else {
-        alert("❌Reconciliation failed!");
+        alert("❌Reconciliation failed!"); 
       }
 
 
