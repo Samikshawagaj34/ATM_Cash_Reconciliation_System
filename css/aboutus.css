@@ -1,5 +1,3 @@
-
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f7fa;
@@ -72,7 +70,7 @@ p {
 
 .story-h {
     color: #df7926;
-    ;
+    
     margin-bottom: 10px;
 }
 
@@ -149,10 +147,7 @@ p {
 
 .team-img {
     width: 200px;
-
     height: 250px;
-
-
     object-fit: cover;
     margin-bottom: 15px;
 }
@@ -174,67 +169,11 @@ p {
     font-size: 15px;
     text-align: justify;
 }
-.copyright{
+
+.copyright {
     font-size: 15px;
     color: white;
     text-align: center;
 }
 
 
-/* Responsive  Mobile devices */
-
-@media screen and (max-width: 600px) {
-    .container {
-        width: 95%;
-        margin: 20px auto;
-    }
-
-    .box {
-        margin-top: 300px;
-        margin-left: 5px;
-        padding: 15px;
-    }
-
-    .parent-container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .child-container {
-        flex: 1 1 100%;
-        margin: 10px 0;
-    }
-
-    .text {
-        text-align: justify;
-    }
-    .story-h{
-        text-align: center;
-    }
-
-    .box-h {
-        margin-left: 20px;
-    }
-
-    .team-member {
-        width: 90%;
-    }
-}
-
-/* Responsive Tablet Devices */
-
-@media screen and (min-width: 601px) and (max-width: 992px) {
-    .container {
-        width: 95%;
-
-    }
-
-    .box {
-        margin: 80px auto;
-        padding: 18px;
-    }
-
-    .team-member {
-        width: 300px;
-    }
-}

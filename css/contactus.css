@@ -14,11 +14,10 @@ body {
     margin-left: 350px;
     margin-top: 150px;
     margin-bottom: 30px;
-    margin: 120px auto 30px;
+    
 }
 .page-heading {
   text-align: center;
-  
   color: black;
   
 }
@@ -129,63 +128,3 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Mobile devices */
-
-@media screen and (max-width: 600px) {
-    .contact-container{
-    flex-direction: column;
-  }
-  .box {
-    margin-top: 220px;
-    margin-left: auto;
-    
-   
-  }
-  .contact-form h2{
-   text-align: center;
-  }
-  .contact-form input{
-    max-width: 400px;
-    margin-left: 20px;
-  }
-  .contact-form textarea {
-    max-width: 400px;
-    margin-left: 20px;
-  }
-  .contact-form button{
-    max-width: 400px;
-    margin-left: 20px;
-  }
-  .info-item{
-    margin-left: 120px;
-  }
-  .map-container h2{
-   text-align: center;
-    margin-bottom: 10px;
-  }
-  .map-container iframe {
-    max-width: 400px;
-    margin-left: 20px;
-   
-    
-  }
-
-
-  
-}
-
-/* Tablet Devices */
-
-@media screen and (min-width: 601px) and (max-width: 992px) {
-    .reconciliation-container {
-    flex-direction: row;
-  }
-
-  .box {
-    
-    margin-left: 50px;
-  }
- 
-  
-
-}

@@ -15,4 +15,6 @@ function reconciliation() {
       }
 
 
+      localStorage.setItem('reconcilatonData', JSON.str)
+
     }
